@@ -6,17 +6,17 @@ import TodoFooter from "./TodoFooter";
 export default class App extends Component {
   render() {
     return (
-      <div className="container">
+      <div className="container" style={{marginTop:15}}>
         <div className="row">
           <div className="col-sm-8 col-sm-offset-2">
             <div className="panel panel-success">
               <div className="panel-heading">
                 <TodoHeader/>
               </div>
-              <div className="panel panel-body">
+              <div className="panel-body">
                 <TodoBody/>
               </div>
-              <div className="panel panel-footer">
+              <div className="panel-footer">
                 <TodoFooter/>
               </div>
             </div>
